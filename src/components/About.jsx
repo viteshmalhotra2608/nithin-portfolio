@@ -32,13 +32,13 @@ const About = () => {
         <div className='flex flex-col justify-around'>
           <div className='sm:px-16 px-2'>
             <h2 className='text-4xl sm:text-5xl font-extrabold mt-2'>Introduction</h2>
-            <p className='mt-3 mb-6 text-[17px] max-w-3xl leading-[30px]'>👨‍💻 Hi, I'm Manda Nithin, a 2023 graduate🎓 with a passion for crafting robust backend systems and captivating mobile applications.As a seasoned <a className='text-green-300 hover:text-green-500 duration-300' href='https://www.linkedin.com/in/nithin-manda-728019214/' target='_blank'>Software developer</a> I specialize in both MEAN and MERN stacks🚀.
+            <p className='mt-3 mb-6 text-[17px] max-w-3xl leading-[30px]'>👨‍💻 Hi, I'm Vitesh Malhotra, a 2023 graduate🎓 with a passion for crafting robust backend systems and captivating web applications. As a seasoned Software developer I specialize in both MEAN and MERN stacks🚀.
               <br />
-              ✍️ Beyond coding, I love sharing my insights and experiences through engaging blogs on <a className=' text-purple-300 hover:text-purple-400 duration-300' href="https://medium.com/@goudnithin77" target='_blank'>Medium</a>, where I delve into the intricacies of software development and technology trends.
-              On a different note, I'm also into photography📸. It's not just a hobby; I see it as a way to capture moments🌟📷, tell stories.</p>
+              With a diverse skill set and an unwavering work ethic, I'm driven by my relentless pursuit of personal and professional growth. I am excited to be part of dynamic teams and make a significant impact in the field of technology and management. In a rapidly evolving tech landscape, I stay ahead by keeping my finger on the pulse of the latest industry trends and emerging skills.I'm excited to connect with like-minded professionals, share insights, and explore opportunities for collaboration. Let's <a className='text-green-300 hover:text-green-500 duration-300' href='https://www.linkedin.com/in/viteshmalhotra/' target='_blank'> connect </a> and embark on a journey of growth and innovation together.
+                </p>
 
             <ButtonLink
-              url='https://drive.google.com/file/d/19Vh0nx5JF9G_sgawb_dUIFlGSHtjp_dw/view?usp=drive_link'
+              url='https://drive.google.com/file/d/1QYASqVt-lqHLVG2AnjDCloU_A1l3B7Tv/view?usp=sharing'
               text='View Resume →'
               padding={`p-3`}
             />

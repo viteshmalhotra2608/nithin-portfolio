@@ -1,8 +1,9 @@
 {
-  "name": "portfolio-nithin",
+  "name": "portfolio-Vitesh",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "latest",
     "@emailjs/browser": "^4.1.0",
     "@react-three/drei": "^9.97.5",
     "@react-three/fiber": "^8.15.16",

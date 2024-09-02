@@ -49,9 +49,9 @@ const Contact = () => {
 				EMAIL_JS_TEMPLATE_ID,
 				{
 					from_name: username,
-					to_name: "Nithin Manda",
+					to_name: "Vitesh Malhotra",
 					reply_to: user_email,
-					to_email: "goudnithin77@gmail.com",
+					to_email: "viteshmalhotra2608@gmail.com",
 					message: user_message,
 				},
 				EMAIL_JS_PUBLIC_KEY
@@ -129,7 +129,7 @@ const Contact = () => {
 
 						<button
 							type='submit'
-							className='pt-3 px-8 rounded-xl outline-none w-fit font-bold shadow-md bg-gray-900'
+							className='pt-3 px-8 rounded-xl w-fit font-bold bg-gray-900'
 						>
 							{loading ? "Sending..." : "Send"}
 						</button>
