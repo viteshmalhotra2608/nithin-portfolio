@@ -1,6 +1,6 @@
 import React, { useState ,useEffect} from 'react';
 import { Link,useLocation } from 'react-router-dom';
-import { experiences } from '../constants';
+import Photo from "../assets/Photo.png"
 
 const Navbar = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -24,16 +24,35 @@ const Navbar = () => {
       <div className="mx-auto text-center flex items-centre justify-between">
         
         <div className="hidden sm:flex space-x-12 items-center text-large">
-        <div> </div>
-        
+        {/* <div> </div> */}
+        <div></div>
           <Link to='/'>Home</Link>
           <Link to='/about'>About</Link>
           <Link to='/projects'>Projects</Link>
           <Link to='/experience'>Experience</Link>
+          <div></div>
+        <div></div> 
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div> 
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>    
+         <img  src={Photo} width = "40"></img>
+        <div classname ="">  <a href="/">Vitesh Malhotra</a> </div> 
         </div>
-        <div className=" ">
-          <a href="/">Vitesh Malhotra</a>
-        </div>
+        
+        
+
+        
   
               
 
